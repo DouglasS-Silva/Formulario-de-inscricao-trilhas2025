@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Adiciona a biblioteca Inputmask -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script> <!--Para colocar as mascaras no CPF, Data de nascimento e numero-->
+</head>
+<body>
+    <script src="inscricao.js"></script>
+    <header class="cabecalho">
+        <img id="img-logo__estudante" src="Ilustracoes/Ilustration.png" alt="Logo trilha inova maranhao - estudante ">
+        <img id="img-logo__trilha-inova" src="Ilustracoes/Logo Trihas Group 2.png" alt="Logo trilha inova maranhao">
+    </header>
+
+    <main class="conteudo-principal">
+
+        <form action="#" enctype="multipart/form-data">
+
+            <div class="titulo-principal">
+                <div class="voltar-principal">
+                    <a href=""><img src="Icones/arrow-left-02.png" alt="icone de Voltar">Voltar</a>
+                </div>
+
+                <h1>Formulário de inscrição</h1>
+                <p>Preencha os dados abaixo para fazer sua inscrição no Programa Trilhas.</p>
+            </div>
+            <div id="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Processando inscrição</p>
+            </div>
+            <div class="container">
+
+                <div class="container-participante">
+                    
+                    <div class="subtitulo-participante">
+                        <h4>Informações do participante</h4>
+                    </div>
+
+                    <div class="container-participante__input">
+                        <label for="nomeCompleto">Nome completo</label>
+                        <input type="text" id="nomeCompleto" placeholder="Informe seu nome completo">
+                    </div>
+                    
+                    <div class="container-participante__input">
+                        <label for="dataDeNascimento">Data de nascimento</label>
+                        <input type="text" id="dataDeNascimento" placeholder="00/00/0000">
+                    </div> 
+                     
+                    <div class="container-participante__input">
+                        <label for="CPF">CPF</label>
+                        <input type="text" id="CPF" placeholder="000.000.000-00">
+                    </div>
+                    
+                    <div class="container-participante__input">
+                        <label for="sexo">Sexo</label>
+                        <select name="sexo" id="sexo">
+                            <option id="cor-diferente" value="" disabled selected>Selecione um gênero</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                        </select>
+                    </div>    
+
+                    <div class="container-participante__input">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Informe seu e-mail">
+                    </div>
+
+                    <div class="container-participante__input">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" placeholder="(00) 0 0000-0000 ">
+                    </div>
+                    
+                    <div class="subtitulo-endereco">
+                        <h4>Endereço residencial</h4>
+                    </div>
+                    <div class="container-participante__input">
+                        <label for="CEP">CEP</label>
+                        <input type="text" id="CEP" placeholder="00000-000">
+                    </div>
+
+                    <div class="container-participante__input">
+                        <label for="rua">Rua</label>
+                        <input type="text" id="rua" placeholder="Rua 1">
+                    </div>
+
+                    <div class="container-participante__input">
+                        <label for="numero">Numero</label>
+                        <input type="number" id="numero" placeholder="10">
+                    </div>
+
+                    <div class="container-participante__input">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" placeholder="São Luís">
+                    </div>
+
+                    <div class="container-participante__input">
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" placeholder="MA">
+                    </div>
+                </div>
+
+                <div class="container-documentos-trilhas">
+
+                    <div class="container-documentos">
+
+                        <div class="subtitulo-documentos">
+                            <h4>Documentos necessários</h4>
+                        </div>
+
+                        <div class="container-documentos__input">
+                            <label for="documento-identidade">Documento de identidade</label>
+                            <input class="input-de-arquivo" type="file" id="documento-identidade" hidden>
+                            <label for="documento-identidade" class="enviar-doc-label">
+                                <img src="Icones/cloud-upload.png" alt="Enviar Documento">
+                                    <p>Clique aqui para selecionar o arquivo</p>
+                            </label>
+                        </div>
+
+                        <div class="container-documentos__input">
+                            <label for="comprovante-residencial">Comprovante de residencial</label>
+                            <input type="file" id="comprovante-residencial" hidden>
+                            <label for="comprovante-residencial" class="enviar-doc-label">
+                                <img src="Icones/cloud-upload.png" alt="Enviar Documento">
+                                <p>Clique aqui para selecionar o arquivo</p>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="subtitulo-aprendizagem">
+                        <h4>Trilhas de aprendizagem</h4>
+                        <p>Selecione apenas uma trilha</p>
+                    </div>
+                    <div class="trilhas-aprendizagem">
+                        <div class="trilha">
+                            <input type="radio" id="front-end" name="area-selecionada">
+                            <label class="trilha__escolher-opcao" for="front-end">
+                                <span class="bolinha-selecao"></span>
+                                <img src="Icones/front-end.png" alt="Programação Front End">
+                                <p>Programação Front-end</p>
+                            </label>
+                        </div>   
+                        
+                        <div class="trilha">
+                            <input type="radio" id="back-end"  name="area-selecionada">
+                            <label for="back-end">
+                                <span class="bolinha-selecao"></span>
+                                <img src="Icones/back-end.png" alt="Programação Back End">
+                                <p>Programação Back-end</p>
+                            </label>
+                        </div>
+                        
+                        <div class="trilha">
+                            <input type="radio" id="jogos" name="area-selecionada">
+                            <label for="jogos">
+                                <span class="bolinha-selecao"></span>
+                                <img src="Icones/jogos.png" alt="Programação de Jogos">
+                                <p>Programação de Jogos</p>
+                            </label>
+                        </div>
+
+                        <div class="trilha">
+                            <input type="radio" id="design"  name="area-selecionada">
+                            <label for="design">
+                                <span class="bolinha-selecao"></span>
+                                <img src="Icones/ux.png" alt="Design e Experiência">
+                                <p>Design e Experiência</p>
+                            </label>
+                        </div>
+
+                        <div class="trilha">
+                            <input type="radio" id="dados" name="area-selecionada">
+                            <label for="dados">
+                                <span class="bolinha-selecao"></span>
+                                <img src="Icones/dados.png" alt="Ciência de Dados">
+                                <p>Ciência de Dados</p>
+                            </label>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+            
+            <div class="container-termos-botoes">
+                <div class="termos-condicoes">
+                    <input type="checkbox" id="termos">
+                    <label for="termos">Declaro que li e concordo com os <span>Termos e Condições</span> e com a <span>Política de Privacidade</span>.</label>
+                </div>
+
+                <div class="botoes">
+                    <button id="botao-cancelar" type="submit">Cancelar</button>
+                    <button id="botao-inscricao" type="submit">Fazer inscrição</button>
+                </div>
+            </div>
+
+        </form>
+    </main>
+    
+</body>
+</html>
+
