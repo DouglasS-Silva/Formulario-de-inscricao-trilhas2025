@@ -16,7 +16,7 @@ Para gerenciar possíveis 10.000 inscritos por ano, é necessária uma **ferrame
 * Produzir uma página estática em HTML e CSS baseado no design do  Figma.<br>
 Link do figma: https://www.figma.com/design/xMXycKv7AAwE7oVGJ1whpd/Desafio-2---Trilhas-2B?node-id=22-377&p=f&t=y4NR5blp1qxlMImV-0
 ### Imagem do Formulário
-->![Site de Inscrição](https://github.com/Sarce43/Formulario-de-inscricao-trilhas2025/raw/main/Desafio_2/Ilustracoes/SiteInscricao.png)
+![Site de Inscrição](https://github.com/Sarce43/Formulario-de-inscricao-trilhas2025/raw/main/Desafio_2/Ilustracoes/SiteInscricao.png)
 
 Link do Site: https://formulario-de-inscricao-tri-git-97f011-andres-projects-244363e7.vercel.app/
 <hr>
