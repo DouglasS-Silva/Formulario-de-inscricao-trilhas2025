@@ -20,7 +20,7 @@ Link do figma: https://www.figma.com/design/xMXycKv7AAwE7oVGJ1whpd/Desafio-2---T
 
 Link do Site: https://formulario-de-inscricao-tri-git-97f011-andres-projects-244363e7.vercel.app/
 <hr>
-Link Youtube: https://youtu.be/KFSVvLXg5Lc
+Link Apresentação: https://youtu.be/KFSVvLXg5Lc
 <hr>
 
 * Desenvolvido por:<br>
