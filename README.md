@@ -23,7 +23,7 @@ Link do Site: https://formulario-de-inscricao-tri-git-97f011-andres-projects-244
 
 * Desenvolvido por:<br>
 ANDRÉ GUSTAVO COSTA DE SOUSA [![Github_andre](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AndreGustIA)<br>
-DOUGLAS DOS SANTOS SILVA [![Github_douglas](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]([https://github.com/Sarce43](https://github.com/DouglasS-Silva))
+DOUGLAS DOS SANTOS SILVA [![Github_douglas](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DouglasS-Silva)
 <hr>
 
 * Ferramentas utilizadas<br><br>
