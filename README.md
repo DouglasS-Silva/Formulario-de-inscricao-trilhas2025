@@ -19,6 +19,7 @@ Link do figma: https://www.figma.com/design/xMXycKv7AAwE7oVGJ1whpd/Desafio-2---T
 ![Site de Inscrição](https://github.com/Sarce43/Formulario-de-inscricao-trilhas2025/raw/main/Desafio_2/Ilustracoes/SiteInscricao.png)
 
 Link do Site: https://formulario-de-inscricao-tri-git-97f011-andres-projects-244363e7.vercel.app/
+<hr>
 Link Youtube: https://youtu.be/KFSVvLXg5Lc
 <hr>
 
